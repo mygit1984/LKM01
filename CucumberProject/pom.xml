@@ -23,4 +23,27 @@
   	</dependency>
 		
   </dependencies>
+  <build>
+       <plugins>
+           <!-- Compiler plug-in -->
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-compiler-plugin</artifactId>
+               <configuration>
+                  <source>1.8</source>
+                  <target>1.8</target>
+               </configuration>
+           </plugin>
+           <!-- Below plug-in is used to execute tests -->
+           <plugin>
+               <groupId>org.apache.maven.plugins</groupId>
+               <artifactId>maven-surefire-plugin</artifactId>
+               <version>3.0.0-M3</version>
+               <configuration>
+               <testSourceDirectory>src/test/java/sceleton</testSourceDirectory>
+               <includes>CucumberRunner.java</includes>
+               </configuration>
+           </plugin>
+       </plugins>
+</build>
 </project>

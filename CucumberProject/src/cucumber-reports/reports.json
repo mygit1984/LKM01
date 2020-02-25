@@ -1,0 +1,229 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-09-17T05:38:19.641Z",
+        "line": 9,
+        "name": "A valid login scenario",
+        "description": "",
+        "id": "login-feature-file;a-valid-login-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\MyDriver\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat com.utility.DriverUtility.getDriver(DriverUtility.java:18)\r\n\tat sceleton.LoginStepDefinitions1.the_URL_of_demo_web_shop_application(LoginStepDefinitions1.java:20)\r\n\tat ✽.The URL of demo web shop(file:src/test/resources/sceleton/login1.feature:3)\r\n",
+              "duration": 152140800,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "The URL of demo web shop",
+            "match": {
+              "location": "LoginStepDefinitions1.the_URL_of_demo_web_shop_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1365300,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User enters kannan1@gmail.com as admin username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kannan1@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinitions1.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 744000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User enters test1234 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinitions1.user_enters_as_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1248900,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User is in valid page",
+            "match": {
+              "location": "LoginStepDefinitions1.user_is_in_valid_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-17T05:38:19.860Z",
+        "line": 10,
+        "name": "A valid login scenario",
+        "description": "",
+        "id": "login-feature-file;a-valid-login-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\MyDriver\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat com.utility.DriverUtility.getDriver(DriverUtility.java:18)\r\n\tat sceleton.LoginStepDefinitions1.the_URL_of_demo_web_shop_application(LoginStepDefinitions1.java:20)\r\n\tat ✽.The URL of demo web shop(file:src/test/resources/sceleton/login1.feature:3)\r\n",
+              "duration": 11781800,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "The URL of demo web shop",
+            "match": {
+              "location": "LoginStepDefinitions1.the_URL_of_demo_web_shop_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 776600,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User enters kannan2@gmail.com as guest username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kannan2@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinitions1.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 676700,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User enters test1234 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinitions1.user_enters_as_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 683800,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User is in valid page",
+            "match": {
+              "location": "LoginStepDefinitions1.user_is_in_valid_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-09-17T05:38:19.885Z",
+        "line": 11,
+        "name": "A valid login scenario",
+        "description": "",
+        "id": "login-feature-file;a-valid-login-scenario;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "error_message": "java.lang.IllegalStateException: The driver executable does not exist: C:\\MyDriver\\chromedriver.exe\r\n\tat com.google.common.base.Preconditions.checkState(Preconditions.java:585)\r\n\tat org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)\r\n\tat org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)\r\n\tat org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)\r\n\tat org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)\r\n\tat org.openqa.selenium.chrome.ChromeDriver.\u003cinit\u003e(ChromeDriver.java:123)\r\n\tat com.utility.DriverUtility.getDriver(DriverUtility.java:18)\r\n\tat sceleton.LoginStepDefinitions1.the_URL_of_demo_web_shop_application(LoginStepDefinitions1.java:20)\r\n\tat ✽.The URL of demo web shop(file:src/test/resources/sceleton/login1.feature:3)\r\n",
+              "duration": 7831400,
+              "status": "failed"
+            },
+            "line": 3,
+            "name": "The URL of demo web shop",
+            "match": {
+              "location": "LoginStepDefinitions1.the_URL_of_demo_web_shop_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 589600,
+              "status": "skipped"
+            },
+            "line": 4,
+            "name": "User enters kannan3@gmail.com as vendor username",
+            "match": {
+              "arguments": [
+                {
+                  "val": "kannan3@gmail.com",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinitions1.user_enters_as_username(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 556500,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "User enters test1234 as password",
+            "match": {
+              "arguments": [
+                {
+                  "val": "test1234",
+                  "offset": 12
+                }
+              ],
+              "location": "LoginStepDefinitions1.user_enters_as_password(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 480200,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User is in valid page",
+            "match": {
+              "location": "LoginStepDefinitions1.user_is_in_valid_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Feature file",
+    "description": "",
+    "id": "login-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/sceleton/login1.feature",
+    "tags": []
+  }
+]

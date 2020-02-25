@@ -9,7 +9,8 @@ import cucumber.api.junit.Cucumber;
  * The purpose of
  */
 @RunWith(Cucumber.class)
-@CucumberOptions(plugin= {"pretty","html:src/cucumber-reports"},monochrome=true,
+@CucumberOptions(plugin= {"pretty","html:src/cucumber-reports",
+"json:src/cucumber-reports/reports.json"},monochrome=true,
 features= {"src/test/resources/sceleton/login1.feature"},dryRun=false)
 public class CucumberRunner {
 
