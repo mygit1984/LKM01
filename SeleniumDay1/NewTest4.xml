@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <suite name="Suite" parallel="false">
   <test name="Test1">
-  <parameter name="browser" value="chrome"></parameter>
+  <parameter name="node" value="http://10.250.88.33:5566/wd/hub"></parameter>
     <classes>
       <class name="com.test.DemoWebShopLoginTest"/>
     </classes>
   </test> <!-- Test -->
   <test name="Test2">
-  <parameter name="browser" value="firefox"></parameter>
+  <parameter name="node" value="firefox"></parameter>
     <classes>
       <class name="com.test.DemoWebShopLoginTest"/>
     </classes>

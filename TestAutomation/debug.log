@@ -1,0 +1,10 @@
+[0527/214150.628:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\KANNAN~1.RAM\AppData\Local\Temp\scoped_dir15364_888915047\Crashpad: The system cannot find the file specified. (0x2)
+[0527/214441.363:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\KANNAN~1.RAM\AppData\Local\Temp\scoped_dir12352_1824701353\Crashpad: The system cannot find the file specified. (0x2)
+[0528/121945.113:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\KANNAN~1.RAM\AppData\Local\Temp\scoped_dir16784_2141324890\Crashpad: The system cannot find the file specified. (0x2)
+[0528/122351.682:ERROR:crash_report_database_win.cc(558)] GetFileAttributes C:\Users\KANNAN~1.RAM\AppData\Local\Temp\scoped_dir6112_364803707\Crashpad: The system cannot find the file specified. (0x2)
+[0531/185053.977:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0531/185054.005:ERROR:exception_snapshot_win.cc(98)] thread ID 7380 not found in process
+[0531/185054.023:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0531/185054.023:ERROR:exception_snapshot_win.cc(98)] thread ID 19020 not found in process
+[0702/173626.187:ERROR:process_reader_win.cc(123)] NtOpenThread: {Access Denied} A process has requested access to an object, but has not been granted those access rights. (0xc0000022)
+[0702/173626.211:ERROR:exception_snapshot_win.cc(98)] thread ID 4100 not found in process
